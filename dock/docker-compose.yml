@@ -1,0 +1,8 @@
+version: '3'
+services:
+  morphologicalanalysis:
+    build: .
+    ports:
+      - '8826:8888'
+    volumes:
+      - '../work/:/work'
