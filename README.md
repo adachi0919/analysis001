@@ -1,4 +1,8 @@
 ### dockerで構築しているので皆様のパソコンでもコードを実行できます。
+0. 下記、事前にインストールお願いします。 
+- Docker(Windows 10 proffesional Edition, macOS)
+- Docker Toolbox(Windows 10 home edition)
+
 1. このgithubをクローンしましょう。実行したいディレクトリに移動したら下記のコードをターミナルに入力して実行します。
 ```
 git clone https://github.com/adachi0919/analysis001.git
