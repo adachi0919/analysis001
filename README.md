@@ -9,7 +9,7 @@ cd analysis001/dock/
 ```
 3. dockerを起動します。
 ```
-docker-compose up
+docker-compose up --build
 ```
 4. dockerが起動して環境が構築されます。ターミナルに以下のような表示がされるかと思います。  
 `toke=`以下のトークンをコピーします。  
