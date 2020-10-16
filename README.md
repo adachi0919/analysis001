@@ -1,13 +1,21 @@
 ### dockerで構築しているので皆様のパソコンでもコードを実行できます。
+0. ご自身のデバイスに合わせて、下記を事前にインストールお願いします。
+- Docker(Windows 10 proffesional Edition, macOS)
+- Docker Toolbox(Windows 10 home edition)
+
 1. このgithubをクローンしましょう。実行したいディレクトリに移動したら下記のコードをターミナルに入力して実行します。
 ```
 git clone https://github.com/adachi0919/analysis001.git
 ```
-2. `dock`というディレクトリまで移動して、以下のコードを実行しましょう。
+2. `dock`というディレクトリまで移動してします。
 ```
-docker-compose up
+cd analysis001/dock/
 ```
-3. dockerが起動して環境が構築されます。ターミナルに以下のような表示がされるかと思います。  
+3. dockerを起動します。
+```
+docker-compose up --build
+```
+4. dockerが起動して環境が構築されます。ターミナルに以下のような表示がされるかと思います。  
 `toke=`以下のトークンをコピーします。  
 今回の場合は`b7dc9350ac6ae40c5313bd0ef6b838aac2158d04cf1e3637`です。
 ```
@@ -30,7 +38,7 @@ morphologicalanalysis_1  |         file:///root/.local/share/jupyter/runtime/nbs
 morphologicalanalysis_1  |     Or copy and paste one of these URLs:
 morphologicalanalysis_1  |         http://66abead6e041:8888/?token=b7dc9350ac6ae40c5313bd0ef6b838aac2158d04cf1e3637
 ```
-4. googlechromeのURLを入力する欄に`http://localhost:8826/`と入力ししてエンターを押しましょう。  
-5. すると`jupyter`と表示される画面に遷移しますので`Password or token:`に先ほどコピーしたトークンをペーストしましょう。
+5. googlechromeのURLを入力する欄に`http://localhost:8826/`と入力ししてエンターを押しましょう。  
+6. `jupyter`と表示される画面に遷移しますので`Password or token:`に先ほどコピーしたトークンをペーストしましょう。
 これで私と同じdocker環境に入ることができました。  
 中にあるコードを実行してみましょう。
