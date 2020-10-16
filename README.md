@@ -1,5 +1,5 @@
 ### dockerで構築しているので皆様のパソコンでもコードを実行できます。
-0. ご自身のデバイスに合わせて、下記を事前にインストールお願いします。 
+0. ご自身のデバイスに合わせて、下記を事前にインストールお願いします。
 - Docker(Windows 10 proffesional Edition, macOS)
 - Docker Toolbox(Windows 10 home edition)
 
