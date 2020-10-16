@@ -13,7 +13,8 @@ RUN pip install --upgrade pip
 RUN pip install \
   Janome \
   jaconv \
-  tinysegmenter==0.3
+  tinysegmenter==0.3 \
+  gensim
 RUN conda install -c conda-forge \
   newspaper3k
 RUN conda install \
