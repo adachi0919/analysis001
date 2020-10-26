@@ -1,0 +1,8 @@
+version: '3'
+services:
+  macab:
+    build: .
+    ports:
+      - '8824:8888'
+    volumes:
+      - '../../../analysis/:/work'
