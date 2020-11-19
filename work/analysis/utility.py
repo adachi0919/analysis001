@@ -1,4 +1,3 @@
-import io, os, sys, types
 import requests
 from bs4 import BeautifulSoup
 import re
@@ -7,13 +6,9 @@ import unicodedata
 import math
 import string
 from bs4 import BeautifulSoup
-import requests
-import jaconv
 from gensim import corpora
 from gensim import models
-from pprint import pprint
 import MeCab
-from gensim.models.doc2vec import Doc2Vec, TaggedDocument
 
 
 
